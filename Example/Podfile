@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'sunni-ffmpeg_Example' do
+  pod 'sunni-ffmpeg', :path => '../'
+
+  target 'sunni-ffmpeg_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
